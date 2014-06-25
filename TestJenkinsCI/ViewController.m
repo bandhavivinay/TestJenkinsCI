@@ -17,6 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSString *unusedVariable1 = @"Variable 1";
+    NSString *unusedVariable2 = @"Variable 2";
+    NSString *unusedVariable3 = @"Variable 3";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,6 +27,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)checkVariable{
+    NSString *variable = @"abc";
+    int length = [variable length];
 }
 
 @end

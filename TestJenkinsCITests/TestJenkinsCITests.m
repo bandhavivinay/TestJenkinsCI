@@ -28,7 +28,13 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    //XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
+
+-(void)testCheckVariable{
+    NSString *testVar = @"def";
+    int length = [testVar length];
+    XCTAssertEqual(length, 3, @"String length Matched");
 }
 
 @end
