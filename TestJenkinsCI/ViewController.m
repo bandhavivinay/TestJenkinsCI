@@ -21,8 +21,8 @@
     NSString *unusedVariable2 = @"Variable 2";
     NSString *unusedVariable3 = @"Variable 3";
     
-    if(){
-        NSLog(@"Checking if condition ...");
+    if(true){
+       
     }
     
     //test comment ...

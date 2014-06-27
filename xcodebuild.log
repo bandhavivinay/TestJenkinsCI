@@ -40,7 +40,7 @@ CompileC build/TestJenkinsCI.build/Release-iphoneos/TestJenkinsCI.build/Objects-
 /Users/tavant/Desktop/TestJenkinsCI/TestJenkinsCI/ViewController.m:22:15: warning: unused variable 'unusedVariable3' [-Wunused-variable]
     NSString *unusedVariable3 = @"Variable 3";
               ^
-/Users/tavant/Desktop/TestJenkinsCI/TestJenkinsCI/ViewController.m:35:9: warning: unused variable 'length' [-Wunused-variable]
+/Users/tavant/Desktop/TestJenkinsCI/TestJenkinsCI/ViewController.m:40:9: warning: unused variable 'length' [-Wunused-variable]
     int length = [variable length];
         ^
 4 warnings generated.
