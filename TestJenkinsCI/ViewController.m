@@ -20,6 +20,11 @@
     NSString *unusedVariable1 = @"Variable 1";
     NSString *unusedVariable2 = @"Variable 2";
     NSString *unusedVariable3 = @"Variable 3";
+    
+    if(){
+        NSLog(@"Checking if condition ...");
+    }
+    
     //test comment ...
 	// Do any additional setup after loading the view, typically from a nib.
 }
