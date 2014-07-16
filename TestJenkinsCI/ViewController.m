@@ -37,6 +37,9 @@
             
         default:
             break;
+        
+        case 2:
+            NSLog(@"Second Case");
     }
     
     goto abc;
@@ -67,6 +70,8 @@
     {
         
     }
+    
+    NSString *variableabovetwentychar;
     
     //test comment ...
 	// Do any additional setup after loading the view, typically from a nib.
