@@ -28,9 +28,9 @@
         
     }
     
-    int variableabovetwentycharactersshouldproduceawarning = 1;
+    int variableabovetwentyc = 1;
     abc:
-    switch (variableabovetwentycharactersshouldproduceawarning) {
+    switch (variableabovetwentyc) {
         case 1:
             NSLog(@"Do Nothing");
             break;
@@ -41,7 +41,7 @@
     
     goto abc;
     
-    for(;variableabovetwentycharactersshouldproduceawarning>1;){
+    for(;variableabovetwentyc>1;){
         NSLog(@"Do Nothing");
     }
     
