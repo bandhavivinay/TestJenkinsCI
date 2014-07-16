@@ -271,7 +271,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "source /.bash_profile\n\n\nhash oclint &> /dev/null\nif [ $? -eq 1 ]; then\necho >&2 \"oclint not found, analyzing stopped\"\nexit 1\nfi\n\n\n\n\ncd ${SRCROOT}\n\nif [ -f xcodebuild.log ]; then\nrm xcodebuild.log\nfi\n\nif [ -f compile_commands.json ]; then\nrm compile_commands.json\nfi\n\nxcodebuild clean\n\n#build xcodebuild.log\nxcodebuild | tee xcodebuild.log\n\necho \"[*] transforming xcodebuild.log into compile_commands.json...\"\n#transform it into compile_commands.json\noclint-xcodebuild\n#run static analyzer\n\necho \"[*] starting analyzing\"\noclint-json-compilation-database -v oclint_args \"-report-type html -o report.html\"";
+			shellScript = "source /.bash_profile\n\n\nhash oclint &> /dev/null\nif [ $? -eq 1 ]; then\necho >&2 \"oclint not found, analyzing stopped\"\nexit 1\nfi\n\n\n\n\ncd ${SRCROOT}\n\nif [ -f xcodebuild.log ]; then\nrm xcodebuild.log\nfi\n\nif [ -f compile_commands.json ]; then\nrm compile_commands.json\nfi\n\nxcodebuild clean\n\n#build xcodebuild.log\nxcodebuild | tee xcodebuild.log\n\necho \"[*] transforming xcodebuild.log into compile_commands.json...\"\n#transform it into compile_commands.json\noclint-xcodebuild\n#run static analyzer\n\n#echo \"[*] starting analyzing\"\n#oclint-json-compilation-database -v oclint_args \"-report-type html -o report.html\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
