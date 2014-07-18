@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		B13085D01978FFAB00093A77 /* sonar-project.properties in Resources */ = {isa = PBXBuildFile; fileRef = B13085CF1978FFAB00093A77 /* sonar-project.properties */; };
+		B13085D2197901EB00093A77 /* run-sonar.sh in Resources */ = {isa = PBXBuildFile; fileRef = B13085D1197901EB00093A77 /* run-sonar.sh */; };
 		F672A5F8195AB0940096FAA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F672A5F7195AB0940096FAA9 /* Foundation.framework */; };
 		F672A5FA195AB0940096FAA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F672A5F9195AB0940096FAA9 /* CoreGraphics.framework */; };
 		F672A5FC195AB0940096FAA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F672A5FB195AB0940096FAA9 /* UIKit.framework */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		B13085CF1978FFAB00093A77 /* sonar-project.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; };
+		B13085D1197901EB00093A77 /* run-sonar.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "run-sonar.sh"; sourceTree = "<group>"; };
 		F672A5F4195AB0940096FAA9 /* TestJenkinsCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJenkinsCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F672A5F7195AB0940096FAA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F672A5F9195AB0940096FAA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,6 +100,7 @@
 		F672A5EB195AB0940096FAA9 = {
 			isa = PBXGroup;
 			children = (
+				B13085D1197901EB00093A77 /* run-sonar.sh */,
 				F672A5FD195AB0940096FAA9 /* TestJenkinsCI */,
 				F672A61C195AB0940096FAA9 /* TestJenkinsCITests */,
 				F672A5F6195AB0940096FAA9 /* Frameworks */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F672A610195AB0940096FAA9 /* Images.xcassets in Resources */,
+				B13085D2197901EB00093A77 /* run-sonar.sh in Resources */,
 				F672A602195AB0940096FAA9 /* InfoPlist.strings in Resources */,
 				B13085D01978FFAB00093A77 /* sonar-project.properties in Resources */,
 				F672A60B195AB0940096FAA9 /* Main.storyboard in Resources */,
