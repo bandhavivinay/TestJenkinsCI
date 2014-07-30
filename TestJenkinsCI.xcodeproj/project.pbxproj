@@ -22,7 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		B1DB14671982268A00EC79C4 /* run-sonar.sh in Resources */ = {isa = PBXBuildFile; fileRef = B1DB14661982268A00EC79C4 /* run-sonar.sh */; };
-		B1DB14691982270E00EC79C4 /* run-sonar-new.sh in Resources */ = {isa = PBXBuildFile; fileRef = B1DB14681982270E00EC79C4 /* run-sonar-new.sh */; };
 		F672A5F8195AB0940096FAA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F672A5F7195AB0940096FAA9 /* Foundation.framework */; };
 		F672A5FA195AB0940096FAA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F672A5F9195AB0940096FAA9 /* CoreGraphics.framework */; };
 		F672A5FC195AB0940096FAA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F672A5FB195AB0940096FAA9 /* UIKit.framework */; };
@@ -51,7 +50,6 @@
 
 /* Begin PBXFileReference section */
 		B1DB14661982268A00EC79C4 /* run-sonar.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "run-sonar.sh"; sourceTree = "<group>"; };
-		B1DB14681982270E00EC79C4 /* run-sonar-new.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "run-sonar-new.sh"; sourceTree = "<group>"; };
 		F672A5F4195AB0940096FAA9 /* TestJenkinsCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJenkinsCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F672A5F7195AB0940096FAA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F672A5F9195AB0940096FAA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,7 +98,6 @@
 		F672A5EB195AB0940096FAA9 = {
 			isa = PBXGroup;
 			children = (
-				B1DB14681982270E00EC79C4 /* run-sonar-new.sh */,
 				B1DB14661982268A00EC79C4 /* run-sonar.sh */,
 				F672A5FD195AB0940096FAA9 /* TestJenkinsCI */,
 				F672A61C195AB0940096FAA9 /* TestJenkinsCITests */,
@@ -253,7 +250,6 @@
 				F672A602195AB0940096FAA9 /* InfoPlist.strings in Resources */,
 				B1DB14671982268A00EC79C4 /* run-sonar.sh in Resources */,
 				F672A60B195AB0940096FAA9 /* Main.storyboard in Resources */,
-				B1DB14691982270E00EC79C4 /* run-sonar-new.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
