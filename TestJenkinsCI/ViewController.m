@@ -52,26 +52,26 @@
         
     }
     
-    while(1){
-        
-    }
-    
-    @try {
-        
-        
-    }
-    @catch (NSException * e) {
-        NSLog(@"Exception: %@", e);
-    }
-    @finally {
-        
-    }
-    
-    {
-        
-    }
-    
-    NSString *variableabovetwentychar;
+//    while(1){
+//        
+//    }
+//    
+//    @try {
+//        
+//        
+//    }
+//    @catch (NSException * e) {
+//        NSLog(@"Exception: %@", e);
+//    }
+//    @finally {
+//        
+//    }
+//    
+//    {
+//        
+//    }
+//    
+//    NSString *variableabovetwentychar;
     
     //test comment ...
 	// Do any additional setup after loading the view, typically from a nib.
